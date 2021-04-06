@@ -5,29 +5,26 @@
 }
 
 header {
-  width: 100%;
   height: 50px;
   background-color: #ff9a4b;
 }
 
 main {
-  width: 100%;s
+  width: 960px;
   display: flex;
   margin: 50px auto;
 }
 
 .main0 {
   width: 300px;
-  height: auto;
   margin-right: 30px;
   padding: 10px;
   position: relative;
   background-color: #eeeeee;
 }
 
-.title {
-  margin-top: 15px;
-  margin-bottom: 5px;
+.main0:last-child {
+  margin-right: 0;
 }
 
 .image1 {
@@ -52,14 +49,19 @@ main {
 }
 
 .step {
+  padding: 3px;
   position: absolute;
+  top: 0;
+  left: 0;
   background-color: #ff9a4b;
+  color: #fff;
 }
 
-
+.title {
+  margin: 15px 0 5px;
+}
 
 footer {
-  width: 100%;
   height: 50px;
   background-color: #aaaaaa;
 }
